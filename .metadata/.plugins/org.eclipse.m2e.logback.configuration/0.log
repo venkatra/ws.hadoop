@@ -35,3 +35,46 @@
 2015-05-07 03:27:49,478 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2015-05-07 03:27:49,479 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-05-07 03:27:49,479 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 03:35:30,078 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 03:35:31,174 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.cloudera.com/artifactory/cloudera-repos/junit/junit/4.10/junit-4.10.jar
+2015-05-07 03:35:31,592 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.cloudera.com/artifactory/cloudera-repos/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+2015-05-07 03:35:31,844 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.jar
+2015-05-07 03:35:32,617 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.jar
+2015-05-07 03:35:32,663 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+2015-05-07 03:35:32,949 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+2015-05-07 03:35:33,105 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 03:35:33,106 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 03:35:33,107 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 03:35:33,107 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:47:55,140 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 14:47:55,508 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:47:55,508 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:47:55,509 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:47:55,510 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:48:44,992 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 14:48:45,229 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:48:45,229 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:48:45,230 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:48:45,230 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:48:57,173 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 14:48:57,379 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:48:57,379 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:48:57,380 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:48:57,380 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:49:52,716 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-05-07 14:49:52,730 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: ca.effpro.learn:hadoop:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/pom.xml.
+2015-05-07 14:49:52,738 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 14:49:52,957 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mapreduce/src/main/java
+2015-05-07 14:49:52,957 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mapreduce/src/main/resources
+2015-05-07 14:49:52,959 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mapreduce/src/test/java
+2015-05-07 14:49:52,959 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mapreduce/src/test/resources
+2015-05-07 14:49:53,034 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-05-07 14:49:53,307 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:49:53,308 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:49:53,309 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:49:53,309 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:50:18,899 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 14:50:19,092 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:50:19,092 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 14:50:19,093 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 14:50:19,093 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
