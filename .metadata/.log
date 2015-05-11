@@ -32,3 +32,16 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.ui 4 4 2015-05-07 15:16:49.589
 !MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@1a117090)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@1bff5e1c)}
+
+!ENTRY org.eclipse.ui 4 4 2015-05-07 18:39:46.822
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@1a117090)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@1bff5e1c)}
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-05-07 19:59:49.325
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml: Duplicated tag: 'groupId' (position: START_TAG seen ...</artifactId>\n\t\n  <groupId>... @12:12)  @ line 12, column 12
+ for project  at /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-05-07 20:00:16.034
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml: Duplicated tag: 'groupId' (position: START_TAG seen ...</artifactId>\n\t\n  <groupId>... @12:12)  @ line 12, column 12
+ for project  at /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml

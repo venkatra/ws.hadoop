@@ -2,6 +2,8 @@ package ca.effpro.learn.hadoop.mr;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
@@ -24,11 +26,15 @@ public class TextToSequenceFileConvertor extends MRBase {
 		FileInputFormat.setInputPaths(job, new Path(getInputFileDir()));
 		FileOutputFormat.setOutputPath(job, new Path(getOutputFileDir()));
 
+		job.setOutputKeyClass(LongWritable.class);
+		job.setOutputValueClass(Text.class);
+		
 		job.setMapperClass(Mapper.class);
 		//job.setOutputFormatClass(SequenceFileOutputFormat.class);
+
 		job.setOutputFormatClass( TextOutputFormat.class);
-		
-		job.setNumReduceTasks(0);
+		job.setReducerClass(Reducer.class);
+		job.setNumReduceTasks(1);
 
 		boolean success = job.waitForCompletion(true);
 		return success ? 0 : 1;

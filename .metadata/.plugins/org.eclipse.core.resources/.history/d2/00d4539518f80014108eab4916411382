@@ -1,0 +1,45 @@
+package ca.effpro.learn.hadoop.mr;
+
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.util.Tool;
+import org.apache.hadoop.util.ToolRunner;
+
+public abstract class MRBase extends Configured implements Tool {
+
+	private String inputFileDir;
+	private String outputFileDir;
+	
+	protected void printHelp() {
+		System.err.println("Following parameters are needed : ");
+		System.err.println("<input dir>");
+		System.err.println("<output dir>");
+	}
+
+	protected int parserArguments(String[] args) throws Exception {
+
+		if (args.length != 2) {
+			printHelp();
+			return -1;
+		}
+
+		inputFileDir = args[0];
+		outputFileDir = args[1];
+		
+		return 1;
+	}
+
+	protected String getInputFileDir() {
+		return inputFileDir;
+	}
+
+	protected String getOutputFileDir() {
+		return outputFileDir;
+	}
+}

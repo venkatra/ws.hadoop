@@ -90,3 +90,471 @@
 2015-05-07 14:57:04,839 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2015-05-07 14:57:04,840 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-05-07 14:57:04,842 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-07 18:58:19,454 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 18:58:19,455 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 18:58:19,456 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 18:58:19,456 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 18:59:02,697 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 18:59:02,697 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 18:59:02,698 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 18:59:02,698 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 18:59:16,042 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 18:59:16,043 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 18:59:16,044 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 18:59:16,044 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 18:59:30,385 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 18:59:30,385 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 18:59:30,386 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 18:59:30,386 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:00:05,121 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:00:05,121 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:00:05,123 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:00:05,123 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:00:24,613 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:00:24,613 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:00:24,614 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:00:24,614 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:01:03,730 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:01:03,731 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:01:03,731 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:01:03,731 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:04:26,725 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:04:26,725 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:04:26,727 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:04:26,727 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:07:53,085 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:07:53,086 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:07:53,087 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:07:53,087 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:08:39,289 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:08:39,289 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:08:39,290 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:08:39,290 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:09:29,263 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:09:29,263 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:09:29,264 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:09:29,264 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:09:34,975 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:09:34,975 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:09:34,976 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:09:34,976 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:10:59,977 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:10:59,977 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:10:59,978 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:10:59,978 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:12:51,264 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:12:51,264 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:12:51,265 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:12:51,265 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:13:23,303 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:13:23,303 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:13:23,304 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:13:23,304 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:13:31,730 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:13:31,730 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:13:31,731 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:13:31,732 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:14:19,110 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:14:19,111 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:14:19,112 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:14:19,112 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:14:40,962 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:14:40,962 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:14:40,963 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:14:40,963 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:14:46,558 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:14:46,558 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:14:46,559 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:14:46,559 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:15:52,951 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:15:52,951 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:15:52,952 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:15:52,952 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-07 19:26:38,656 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/pom.xml
+2015-05-07 19:26:38,697 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:flume:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/pom.xml.
+2015-05-07 19:26:38,718 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flume/src/main/java
+2015-05-07 19:26:38,719 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flume/src/test/java
+2015-05-07 19:26:38,739 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2015-05-07 19:26:39,609 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:flume:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/pom.xml.
+2015-05-07 19:26:39,647 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:26:39,648 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/src/main/resources
+2015-05-07 19:26:39,648 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:26:39,648 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/src/test/resources
+2015-05-07 19:26:39,768 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:flume:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/pom.xml.
+2015-05-07 19:26:40,666 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:26:40,666 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/src/main/resources
+2015-05-07 19:26:40,667 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:26:40,667 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/src/test/resources
+2015-05-07 19:27:02,159 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:27:02,159 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/src/main/resources
+2015-05-07 19:27:02,159 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:27:02,159 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/src/test/resources
+2015-05-07 19:35:06,511 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 19:35:06,778 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:35:06,778 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:35:06,779 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:35:06,779 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:38:25,630 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 19:38:25,907 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:38:25,907 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:38:25,907 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:38:25,908 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:38:27,222 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:38:27,222 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:38:27,223 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:38:27,223 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-07 19:38:54,743 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 19:38:54,947 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:38:54,947 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:38:54,947 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:38:54,947 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:44:06,881 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: ca.effpro.learn:hadoop:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/pom.xml.
+2015-05-07 19:44:06,897 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 19:44:07,326 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:44:07,326 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:44:07,327 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:44:07,327 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-07 19:44:11,245 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: ca.effpro.learn:hadoop:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/pom.xml.
+2015-05-07 19:44:11,255 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 19:44:11,625 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:44:11,625 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:44:11,626 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:44:11,626 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:44:17,966 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: ca.effpro.learn:hadoop:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/pom.xml.
+2015-05-07 19:44:17,979 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 19:44:18,365 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:44:18,365 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:44:18,366 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:44:18,366 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:46:18,062 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: ca.effpro.learn:hadoop:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/pom.xml.
+2015-05-07 19:46:18,084 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 19:46:18,494 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:46:18,494 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:46:18,497 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:46:18,497 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-07 19:48:15,307 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml
+2015-05-07 19:48:15,337 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:48:15,367 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /datasources/src/main/java
+2015-05-07 19:48:15,368 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /datasources/src/test/java
+2015-05-07 19:48:15,386 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2015-05-07 19:48:15,579 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:48:15,611 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:48:15,611 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:48:15,611 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:48:15,611 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:48:16,445 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:48:16,625 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:48:16,625 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:48:16,626 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:48:16,626 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:48:16,638 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: ca.effpro.learn:hadoop:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/pom.xml.
+2015-05-07 19:48:16,657 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 19:48:16,900 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:48:17,168 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:48:17,169 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:48:17,169 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:48:17,170 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:48:18,189 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:48:18,189 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:48:18,190 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:48:18,190 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:50:23,562 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:50:23,562 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/src/main/resources
+2015-05-07 19:50:23,563 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:50:23,563 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/flume/src/test/resources
+2015-05-07 19:51:13,080 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:51:13,099 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:51:13,099 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:51:13,100 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:51:13,100 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:51:51,249 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:51:51,294 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:51:51,294 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:51:51,295 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:51:51,295 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:51:52,440 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:51:52,440 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:51:52,441 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:51:52,441 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:54:04,424 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:54:04,425 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:54:04,425 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:54:04,426 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:54:38,462 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:54:38,462 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:54:38,463 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:54:38,463 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:54:38,521 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:54:38,521 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:54:38,522 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:54:38,522 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:54:49,493 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:54:49,493 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:54:49,494 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:54:49,494 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:55:10,330 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:10,330 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:55:10,331 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:10,331 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:55:10,363 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:10,364 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 19:55:10,364 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:10,364 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-07 19:55:17,924 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:17,924 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:55:17,924 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:17,925 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:55:29,082 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:29,082 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:55:29,083 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:29,083 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:55:52,799 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:52,799 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:55:52,799 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:55:52,799 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:56:54,829 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:56:54,877 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:56:54,877 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:56:54,878 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:56:54,878 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:56:56,026 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:56:56,026 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:56:56,027 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:56:56,027 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:56:57,652 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:56:57,696 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:56:57,696 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:56:57,697 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:56:57,697 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:57:21,261 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-05-07 19:57:21,273 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:57:21,312 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /datasources/src/main/java
+2015-05-07 19:57:21,312 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /datasources/src/test/java
+2015-05-07 19:57:21,369 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:datasources:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/pom.xml.
+2015-05-07 19:57:21,386 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-05-07 19:57:21,542 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:57:21,543 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/main/resources
+2015-05-07 19:57:21,543 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 19:57:21,543 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/datasources/src/test/resources
+2015-05-07 19:59:49,324 [Worker-23] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml: Duplicated tag: 'groupId' (position: START_TAG seen ...</artifactId>\n\t\n  <groupId>... @12:12)  @ line 12, column 12
+ for project  at /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml: Duplicated tag: 'groupId' (position: START_TAG seen ...</artifactId>\n\t\n  <groupId>... @12:12)  @ line 12, column 12
+ for project  at /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:152) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:105) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:629) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:779) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:913) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:775) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:188) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:753) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$6.run(MavenPomEditor.java:1073) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml: Duplicated tag: 'groupId' (position: START_TAG seen ...</artifactId>\n\t\n  <groupId>... @12:12)  @ line 12, column 12
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:195) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:499) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:256) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:145) ~[maven-core-3.2.1.jar:3.2.1]
+	... 15 common frames omitted
+2015-05-07 20:00:16,034 [Worker-14] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml: Duplicated tag: 'groupId' (position: START_TAG seen ...</artifactId>\n\t\n  <groupId>... @12:12)  @ line 12, column 12
+ for project  at /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml: Duplicated tag: 'groupId' (position: START_TAG seen ...</artifactId>\n\t\n  <groupId>... @12:12)  @ line 12, column 12
+ for project  at /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:152) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:105) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:629) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:779) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:913) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:775) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:188) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:753) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$6.run(MavenPomEditor.java:1073) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml: Duplicated tag: 'groupId' (position: START_TAG seen ...</artifactId>\n\t\n  <groupId>... @12:12)  @ line 12, column 12
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:195) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:499) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:256) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:145) ~[maven-core-3.2.1.jar:3.2.1]
+	... 15 common frames omitted
+2015-05-07 20:01:00,822 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: ca.effpro.learn:hadoop:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/pom.xml.
+2015-05-07 20:01:00,839 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 20:01:01,339 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:01:01,340 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 20:01:01,340 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:01:01,341 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-07 20:01:11,328 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: ca.effpro.learn:hadoop:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/pom.xml.
+2015-05-07 20:01:11,342 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 20:01:11,711 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:01:11,711 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 20:01:11,712 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:01:11,712 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 20:02:28,115 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:flume:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml.
+2015-05-07 20:02:28,142 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flume/src/main/java
+2015-05-07 20:02:28,143 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flume/src/test/java
+2015-05-07 20:02:28,156 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2015-05-07 20:02:28,330 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:02:28,330 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/src/main/resources
+2015-05-07 20:02:28,330 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:02:28,330 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/src/test/resources
+2015-05-07 20:02:29,143 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn:flume:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/pom.xml.
+2015-05-07 20:02:29,361 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:02:29,361 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/src/main/resources
+2015-05-07 20:02:29,361 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:02:29,361 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/flume/src/test/resources
+2015-05-07 20:02:41,467 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.effpro.learn.hadoop:mapreduce:0.0.1-SNAPSHOT @ /Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop/mapreduce/pom.xml.
+2015-05-07 20:02:42,736 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:02:42,736 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-07 20:02:42,736 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-07 20:02:42,736 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:01:59,813 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:01:59,815 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:01:59,816 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:01:59,816 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:04:17,775 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:04:17,775 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:04:17,776 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:04:17,776 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:43:17,397 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:43:17,397 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:43:17,398 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:43:17,398 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-11 13:49:27,799 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:49:27,799 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:49:27,800 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:49:27,800 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-05-11 13:50:43,324 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:50:43,324 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:50:43,324 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:50:43,325 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:51:40,542 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:51:40,542 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:51:40,542 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:51:40,543 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:56:13,954 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:56:13,955 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:56:13,955 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:56:13,955 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:56:54,504 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:56:54,504 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 13:56:54,506 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 13:56:54,506 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:01:11,797 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:01:11,797 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:01:11,798 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:01:11,798 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:01:48,182 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:01:48,183 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:01:48,183 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:01:48,183 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:03:38,786 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:03:38,786 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:03:38,786 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:03:38,787 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:03:48,536 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:03:48,537 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:03:48,537 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:03:48,537 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:05:36,707 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:05:36,707 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:05:36,708 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:05:36,708 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:05:44,722 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:05:44,722 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:05:44,722 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:05:44,723 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:05:54,548 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:05:54,548 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:05:54,549 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:05:54,549 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:07:58,979 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:07:58,980 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:07:58,981 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:07:58,981 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:08:00,044 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:08:00,044 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:08:00,045 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:08:00,045 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:08:05,228 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:08:05,229 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:08:05,229 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:08:05,229 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:10:33,602 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:10:33,602 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:10:33,602 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:10:33,602 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:10:34,658 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:10:34,658 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:10:34,658 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:10:34,658 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:10:37,571 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:10:37,571 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:10:37,571 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:10:37,571 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:12:09,242 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:12:09,242 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:12:09,243 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:12:09,243 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:12:10,252 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:12:10,252 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:12:10,252 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:12:10,253 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:12:12,373 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:12:12,373 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:12:12,373 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:12:12,373 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:15:10,899 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:15:10,900 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:15:10,900 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:15:10,900 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:15:11,911 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:15:11,911 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:15:11,912 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:15:11,912 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:15:20,233 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:15:20,233 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:15:20,233 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:15:20,234 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:18:08,805 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:18:08,805 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:18:08,806 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:18:08,806 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:18:09,818 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:18:09,818 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 14:18:09,818 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 14:18:09,818 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 15:02:46,453 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 15:02:46,454 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 15:02:46,455 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 15:02:46,455 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 15:02:49,618 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 15:02:49,618 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 15:02:49,619 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 15:02:49,619 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 15:02:50,641 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 15:02:50,641 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 15:02:50,642 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 15:02:50,642 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 15:03:58,758 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 15:03:58,759 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-11 15:03:58,759 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-11 15:03:58,759 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
