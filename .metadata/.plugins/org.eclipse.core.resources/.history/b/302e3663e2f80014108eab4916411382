@@ -1,0 +1,22 @@
+package ca.effpro.hadoop.mrbasics.old;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.commons.logging.Log;
+import org.apache.hadoop.conf.Configured;
+
+public abstract class MRBasicDriverBase extends Configured implements org.apache.hadoop.util.Tool
+{
+  public MRBasicDriverBase() {}
+  
+  private static final Log logger = org.apache.commons.logging.LogFactory.getLog(MRBasicDriverBase.class);
+  
+  protected String inputDir = null;
+  protected String outputDir = null;
+  protected String jobName = null;
+  
+  public void initArguments(String[] args) {
+    setJobName(args[0]);
+    setInputDir(args[1]);
+    setOutputDir(args[2]);
+  }
+  

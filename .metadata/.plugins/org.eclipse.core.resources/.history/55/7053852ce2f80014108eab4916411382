@@ -1,0 +1,5 @@
+package ca.effpro.hadoop.mrbasics.old;
+
+public class RegionToUniqueLinkReducer {
+
+}

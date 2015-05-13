@@ -14,4 +14,6 @@ export HADOOP_CLASSPATH=`echo ${LIBJARS} | sed s/,/:/g`
 
 CMD_OPTIONS='-D mapred.reduce.tasks=1'
 
+hadoop fs -rm -r -f -skipTrash $OUTPUT_DIR
+
 hadoop jar $JAR $MAIN_CLASS -libjars $LIBJARS $CMD_OPTIONS $INPUT_DIR $OUTPUT_DIR 
