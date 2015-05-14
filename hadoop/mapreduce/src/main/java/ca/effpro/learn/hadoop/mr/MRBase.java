@@ -1,12 +1,13 @@
 package ca.effpro.learn.hadoop.mr;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.util.Tool;
-import org.apache.log4j.Logger;
 
 public abstract class MRBase extends Configured implements Tool {
-	private static final Logger logger = Logger.getLogger(MRBase.class);
-
+	private static final Log logger = LogFactory.getLog(MRBase.class);
+	 
 	private String inputFileDir;
 	private String outputFileDir;
 	

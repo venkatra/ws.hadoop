@@ -1,0 +1,98 @@
+package ca.effpro.learn.hadoop.mr.format.zip;
+
+import java.io.ByteArrayOutputStream;
+import java.io.EOFException;
+import java.io.IOException;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipException;
+import java.util.zip.ZipInputStream;
+
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataInputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.BytesWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.RecordReader;
+import org.apache.hadoop.mapreduce.InputSplit;
+import org.apache.hadoop.mapreduce.TaskAttemptContext;
+import org.apache.hadoop.mapreduce.lib.input.FileSplit;
+
+import ca.effpro.learn.hadoop.mr.MRBase;
+
+/**
+ * This RecordReader implementation extracts individual files from a ZIP file
+ * and hands them over to the Mapper. The "key" is the decompressed file name,
+ * the "value" is the file contents.
+ * 
+ * Copied from : https://github.com/cotdp/com-cotdp-hadoop
+ */
+public class MegaZipFileRecordReader extends ZipFileRecordReader {
+	private static final Log logger = LogFactory.getLog(MegaZipFileRecordReader.class);
+	private static final int BYTE_SIZE = 1024;
+
+	private ZipEntry entry = null;
+
+	private int previousOffset = 0;
+
+	private boolean moreBytesInFileContent = false;
+
+	ByteArrayOutputStream bos = new ByteArrayOutputStream();
+
+	@Override
+	public boolean nextKeyValue() throws IOException, InterruptedException {
+
+		if (entry == null) {
+
+			try {
+				entry = zip.getNextEntry();
+			} catch (ZipException e) {
+				if (ZipFileInputFormat.getLenient() == false)
+					throw e;
+			}
+
+			logger.info("Processing zip entry : " + entry.getName() + " ...");
+			// Sanity check
+			if (entry == null) {
+				isFinished = true;
+				return false;
+			}
+
+			// Filename
+			currentKey = new Text(entry.getName());
+		}
+
+		// Read the file contents
+		int bytesRead = 0;
+		byte[] temp = new byte[BYTE_SIZE];
+		try {
+			bytesRead = zip.read(temp, previousOffset, BYTE_SIZE);
+		} catch (EOFException e) {
+			if (ZipFileInputFormat.getLenient() == false)
+				throw e;
+			return false;
+		}
+
+		if (bytesRead <= 0) {
+			logger.info("Finsihed reading file : " + entry.getName() + );
+			
+			zip.closeEntry();
+			moreBytesInFileContent = false;
+			entry = null;
+			previousOffset = 0;
+
+		} else {
+			logger.info("Bytes read of file [" + entry.getName() + "] : " + (previousOffset + bytesRead));
+			bos.write(temp, 0, bytesRead);
+			currentValue = new BytesWritable(bos.toByteArray());
+			previousOffset += bytesRead;
+			moreBytesInFileContent = true;
+		}
+
+		return true;
+	}
+
+}

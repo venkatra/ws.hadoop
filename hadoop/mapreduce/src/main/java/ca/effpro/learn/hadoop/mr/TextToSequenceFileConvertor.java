@@ -2,15 +2,13 @@ package ca.effpro.learn.hadoop.mr;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.Reducer;
-import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
+import ca.effpro.learn.hadoop.mr.format.zip.ZipFileEntriesToContentMapper;
 import ca.effpro.learn.hadoop.mr.format.zip.ZipFileInputFormat;
-import ca.effpro.learn.hadoop.mr.format.zip.ZipFileMapper;
 
 public class TextToSequenceFileConvertor extends MRBase {
 
@@ -23,20 +21,21 @@ public class TextToSequenceFileConvertor extends MRBase {
 		job.setJarByClass(getClass());
 		
 		ZipFileInputFormat.addInputPath(job, new Path(getInputFileDir()));
-		FileOutputFormat.setOutputPath(job, new Path(getOutputFileDir()));
+		SequenceFileOutputFormat.setOutputPath(job, new Path(getOutputFileDir()));
 		    
-		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(IntWritable.class);
+		job.setMapperClass(ZipFileEntriesToContentMapper.class);
+		//job.setMapOutputKeyClass(Text.class);
+		//job.setMapOutputValueClass(BytesWritable.class);
 		
-		job.setMapperClass(ZipFileMapper.class);
-		job.setReducerClass(Reducer.class);
+		//job.setReducerClass(ZipFileEntryToContentReducer.class);
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(Text.class);
 		
 		ZipFileInputFormat.setLenient( true );
 		
-		//job.setInputFormatClass(ZipFileInputFormat.class);
-		//job.setOutputFormatClass( TextOutputFormat.class);
-		//job.setNumReduceTasks(1);
-
+		job.setInputFormatClass(ZipFileInputFormat.class);
+		job.setOutputFormatClass( SequenceFileOutputFormat.class);
+		
 		return job.waitForCompletion(true) ? 0 : 1;
 	}
 

@@ -32,16 +32,16 @@ public class ZipFileRecordReader
     private FSDataInputStream fsin;
 
     /** ZIP file parser/decompresser */
-    private ZipInputStream zip;
+    protected ZipInputStream zip;
 
     /** Uncompressed file name */
-    private Text currentKey;
+    protected Text currentKey;
 
     /** Uncompressed file contents */
-    private BytesWritable currentValue;
+    protected BytesWritable currentValue;
 
     /** Used to indicate progress */
-    private boolean isFinished = false;
+    protected boolean isFinished = false;
 
     /**
      * Initialise and open the ZIP file from the FileSystem

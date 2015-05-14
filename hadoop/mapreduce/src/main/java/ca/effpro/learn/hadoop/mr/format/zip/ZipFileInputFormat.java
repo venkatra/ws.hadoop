@@ -39,7 +39,8 @@ public class ZipFileInputFormat
     public RecordReader<Text, BytesWritable> createRecordReader( InputSplit split, TaskAttemptContext context )
         throws IOException, InterruptedException
     {
-        return new ZipFileRecordReader();
+        //return new ZipFileRecordReader();
+    	return new MegaZipFileRecordReader();
     }
     
     /**
