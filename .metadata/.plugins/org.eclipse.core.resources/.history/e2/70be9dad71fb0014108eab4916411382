@@ -1,0 +1,189 @@
+package ca.effpro.learn.hadoop.mr.format.xls;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Iterator;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataInputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.InputSplit;
+import org.apache.hadoop.mapreduce.RecordReader;
+import org.apache.hadoop.mapreduce.TaskAttemptContext;
+import org.apache.hadoop.mapreduce.lib.input.FileSplit;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+
+import ca.effpro.learn.hadoop.mr.format.zip.MegaZipFileRecordReader;
+
+/**
+ * This record reader is used to read an excel file.
+ * 
+ * The key would be of the format <sheet name>#<row number>
+ * 
+ * The value would be each row in the sheet that is currently being processed.
+ *
+ */
+public class ExcelRecordReader extends RecordReader<Text, Text> {
+	private static final Log logger = LogFactory
+			.getLog(MegaZipFileRecordReader.class);
+
+	/**
+	 * The separator for column values. This will be comma by default.
+	 */
+	private String columnSeparator = ",";
+	
+	/**
+	 * InputStream used to read the file from the FileSystem
+	 */
+	private FSDataInputStream fsin;
+
+	/**
+	 * The workbook instance
+	 */
+	private HSSFWorkbook workbook = null;
+
+	/**
+	 * The current sheet that is being processed. This will be part of the key
+	 */
+	private HSSFSheet currentSheet;
+	
+	private int currentRowNum = 0;
+
+	private String[] currentValArray = null;
+	
+	@Override
+	public void initialize(InputSplit inputSplit,
+			TaskAttemptContext taskAttemptContext) throws IOException,
+			InterruptedException {
+
+		FileSplit split = (FileSplit) inputSplit;
+		Configuration conf = taskAttemptContext.getConfiguration();
+		Path path = split.getPath();
+		FileSystem fs = path.getFileSystem(conf);
+
+		// Open the stream
+		fsin = fs.open(path);
+
+		try {
+			workbook = new HSSFWorkbook(fsin);
+		} catch (IOException e) {
+			logger.error("Unable to open workbook [" + path.getName() + "] : "
+					+ e.getMessage(), e);
+		}
+	}
+
+	@Override
+	public Text getCurrentValue() throws IOException, InterruptedException {
+		
+		if(currentValArray == null)
+			return null;
+		
+		StringUtils.join(currentValArray,columnSeparator);
+		
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public float getProgress() throws IOException, InterruptedException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean nextKeyValue() throws IOException, InterruptedException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/**
+	 * The key would be of the format <sheet name>#<row number>
+	 *
+	 */
+	@Override
+	public Text getCurrentKey() throws IOException,
+			InterruptedException {
+		
+		if(currentSheet == null)
+			return null;
+		
+		return new Text(currentSheet.getSheetName() + "#" + currentRowNum);
+	}
+
+	@Override
+	public void close() throws IOException {
+
+		if (workbook == null)
+			return;
+
+		fsin.close();
+	}
+
+	private StringBuilder currentString = null;
+	private long bytesRead = 0;
+
+	public String parseExcelData(InputStream is) {
+		try {
+			HSSFWorkbook workbook = new HSSFWorkbook(is);
+
+			// Taking first sheet from the workbook
+			HSSFSheet sheet = workbook.getSheetAt(0);
+
+			// Iterate through each rows from first sheet
+			Iterator<Row> rowIterator = sheet.iterator();
+			currentString = new StringBuilder();
+			while (rowIterator.hasNext()) {
+				Row row = rowIterator.next();
+
+				// For each row, iterate through each columns
+				Iterator<Cell> cellIterator = row.cellIterator();
+
+				while (cellIterator.hasNext()) {
+
+					Cell cell = cellIterator.next();
+
+					switch (cell.getCellType()) {
+					case Cell.CELL_TYPE_BOOLEAN:
+						bytesRead++;
+						currentString.append(cell.getBooleanCellValue() + "\t");
+						break;
+
+					case Cell.CELL_TYPE_NUMERIC:
+						bytesRead++;
+						currentString.append(cell.getNumericCellValue() + "\t");
+						break;
+
+					case Cell.CELL_TYPE_STRING:
+						bytesRead++;
+						currentString.append(cell.getStringCellValue() + "\t");
+						break;
+
+					}
+				}
+				currentString.append("\n");
+			}
+			is.close();
+		} catch (IOException e) {
+			logger.error("IO Exception : File not found " + e);
+		}
+		return currentString.toString();
+
+	}
+
+	public long getBytesRead() {
+		return bytesRead;
+	}
+
+	protected void setColumnSeparator(String columnSeperator) {
+		this.columnSeparator = columnSeperator;
+	}
+}

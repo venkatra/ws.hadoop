@@ -68,6 +68,12 @@
 			<artifactId>hadoop-mapreduce-client-jobclient</artifactId>
 			<version>${hadoop.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.11</version>
+		</dependency>
+
 	</dependencies>
 
 	<profiles>

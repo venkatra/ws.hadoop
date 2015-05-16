@@ -5,23 +5,11 @@ import java.io.EOFException;
 import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
-import java.util.zip.ZipInputStream;
 
-import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataInputStream;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.BytesWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapreduce.RecordReader;
-import org.apache.hadoop.mapreduce.InputSplit;
-import org.apache.hadoop.mapreduce.TaskAttemptContext;
-import org.apache.hadoop.mapreduce.lib.input.FileSplit;
-
-import ca.effpro.learn.hadoop.mr.MRBase;
 
 /**
  * This RecordReader is used to read large files which are zipped and stored in HDFS. Foe each file, 
@@ -38,9 +26,6 @@ public class MegaZipFileRecordReader extends ZipFileRecordReader {
 
 	private int previousOffset = 0;
 
-//	private boolean moreBytesInFileContent = false;
-
-	
 	@Override
 	public boolean nextKeyValue() throws IOException, InterruptedException {
 
@@ -53,7 +38,6 @@ public class MegaZipFileRecordReader extends ZipFileRecordReader {
 					throw e;
 			}
 
-			//logger.info("Processing zip entry : " + entry.getName() + " ...");
 			// Sanity check
 			if (entry == null) {
 				isFinished = true;
@@ -82,7 +66,6 @@ public class MegaZipFileRecordReader extends ZipFileRecordReader {
 		if (bytesRead <= 0) {
 			logger.info("Finished reading file : " + entry.getName() );
 			zip.closeEntry();
-//			moreBytesInFileContent = false;
 			entry = null;
 			previousOffset = 0;
 
@@ -91,7 +74,6 @@ public class MegaZipFileRecordReader extends ZipFileRecordReader {
 			bos.write(temp, 0, bytesRead);
 			currentValue = new BytesWritable(bos.toByteArray());
 			previousOffset += bytesRead;
-//			moreBytesInFileContent = true;
 		}
 
 		return true;

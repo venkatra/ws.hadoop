@@ -1,0 +1,5 @@
+package ca.effpro.learn.hadoop.mr.format.xls;
+
+public class ExcelSheetRecordMapper {
+
+}

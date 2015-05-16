@@ -12,3 +12,9 @@
 1431603563826	Move compilation unit
 1431603648735	Rename type 'TextToSequenceFileConvertor'
 1431604120401	Rename resource 'convertRawToSequence.sh'
+1431742310743	Rename field 'rowNum'
+1431742462825	Rename field 'columnSeperator'
+1431770029588	Copy compilation unit
+1431770846748	Copy file
+1431770859776	Rename resource 'Copy of transformZipToSequenceFileDriver.sh'
+1431771522474	Copy file
