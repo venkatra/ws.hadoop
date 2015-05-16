@@ -26,8 +26,6 @@ import ca.effpro.learn.hadoop.mr.format.xls.ExcelInputFormat;
  * The associated script (processExcelFileDriver.sh) is used to invoke this driver and submit
  * the program in HDFS. The output would be printed using the default reducer.
  *
- * The program was based upon the blog : 
- *  https://sreejithrpillai.wordpress.com/2014/11/06/excel-inputformat-for-hadoop-mapreduce/
  */
 public class ProcessExcelFileDriver extends MRBase {
 
