@@ -1,0 +1,13 @@
+package ca.effpro.learn.hadoop.mr.tpt.exer1;
+
+/**
+ * A custom writable class which will be composed of the following items
+ * <ol> year
+ * <ol> month
+ * <ol> infraction code
+ * 
+ * 
+ */
+public class YearMonthToInfractionWritable implements WritableComparator<YearMonthToInfractionWritable>{
+
+}

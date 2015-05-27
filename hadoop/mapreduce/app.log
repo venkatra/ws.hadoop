@@ -64,3 +64,249 @@ java.io.IOException: Hadoop home directory C:\Dev\workspace\lib\hadoop-2.6.0 doe
 2015-05-11 16:05:30 ERROR TestDriver:49 - Missing expected output (6, 2) at position 0.
 2015-05-11 16:05:30 ERROR TestDriver:49 - Received unexpected output (M, 1) at position 0.
 2015-05-11 16:05:30 ERROR TestDriver:49 - Received unexpected output (M, 1) at position 1.
+2015-05-21 18:49:28 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200801,01,0
+2015-05-21 18:49:28 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200901,01,1
+2015-05-21 18:50:42 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200801,01,0
+2015-05-21 18:50:42 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200901,01,1
+2015-05-21 18:51:00 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200801,01,0
+2015-05-21 18:51:00 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200901,01,1
+2015-05-21 18:51:14 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200801,01,0
+2015-05-21 18:52:05 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200801,01,0
+2015-05-21 18:53:23 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200801,01,0
+2015-05-21 18:54:25 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200801,01,0
+2015-05-21 18:55:21 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200801,01,0
+2015-05-21 18:55:44 INFO  YearMonthToInfractionWritableTest:30 - => 200801,01,200901,01,1
+2015-05-21 19:23:33 INFO  YearMonthToInfractionWritableTest:33 - => 200801,01,200801,01,0
+2015-05-21 19:23:33 INFO  YearMonthToInfractionWritableTest:33 - => 200801,01,200901,01,-1
+2015-05-21 19:23:33 INFO  YearMonthToInfractionWritableTest:33 - => 200801,01,200701,01,1
+2015-05-21 19:23:33 INFO  YearMonthToInfractionWritableTest:33 - => 200801,01,200802,01,-1
+2015-05-21 19:25:23 INFO  YearMonthToInfractionWritableTest:35 - => 20080108,01,20080108,01,0
+2015-05-21 19:25:23 INFO  YearMonthToInfractionWritableTest:35 - => 20080108,01,20080109,01,0
+2015-05-21 19:25:23 INFO  YearMonthToInfractionWritableTest:35 - => 20080108,01,20080107,01,0
+2015-05-21 19:25:23 INFO  YearMonthToInfractionWritableTest:35 - => 20080108,01,20090108,01,-1
+2015-05-21 19:25:23 INFO  YearMonthToInfractionWritableTest:35 - => 20080108,01,20070108,01,1
+2015-05-21 19:25:23 INFO  YearMonthToInfractionWritableTest:35 - => 20080108,01,20080208,01,-1
+2015-05-21 19:26:35 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080108,01,0
+2015-05-21 19:26:35 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080109,01,0
+2015-05-21 19:26:35 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080107,01,0
+2015-05-21 19:26:35 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080108,02,-1
+2015-05-21 19:26:35 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20090108,01,-1
+2015-05-21 19:26:35 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20070108,01,1
+2015-05-21 19:26:35 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080208,01,-1
+2015-05-21 19:36:00 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20080208,01,-1
+2015-05-21 19:36:47 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20080208,01,-1
+2015-05-21 19:39:05 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20080208,01,-1
+2015-05-21 19:40:43 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20080208,01,-1
+2015-05-21 19:40:43 INFO  YearMonthToInfractionWritableTest:37 - => 20081208,01,20090108,01,1
+2015-05-21 19:40:46 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20080208,01,-1
+2015-05-21 19:41:22 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20080208,01,-1
+2015-05-21 19:41:32 INFO  YearMonthToInfractionWritableTest:37 - => 20081208,01,20090108,01,1
+2015-05-21 19:42:21 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20080208,01,-1
+2015-05-21 19:42:31 INFO  YearMonthToInfractionWritableTest:37 - => 20081208,01,20090108,01,-1
+2015-05-21 19:42:37 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20080208,01,-1
+2015-05-21 19:42:37 INFO  YearMonthToInfractionWritableTest:37 - => 20081208,01,20090108,01,-1
+2015-05-21 19:42:37 INFO  YearMonthToInfractionWritableTest:37 - => 20080108,01,20070108,01,1
+2015-05-21 19:43:28 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080208,01,-1
+2015-05-21 19:43:28 INFO  YearMonthToInfractionWritableTest:38 - => 20081208,01,20090108,01,-1
+2015-05-21 19:43:28 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20070108,01,1
+2015-05-21 19:43:28 INFO  YearMonthToInfractionWritableTest:38 - => 20080208,01,20080108,01,1
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080108,01,0
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080109,01,0
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080107,01,0
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080108,02,-1
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20090108,01,-1
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20070108,01,1
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20080208,01,-1
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20081208,01,20090108,01,-1
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080108,01,20070108,01,1
+2015-05-21 19:43:46 INFO  YearMonthToInfractionWritableTest:38 - => 20080208,01,20080108,01,1
+2015-05-21 19:48:16 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:49:46 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:50:32 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:50:57 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:52:26 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:54:00 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:54:00 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080109,01,0
+2015-05-21 19:54:00 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080107,01,0
+2015-05-21 19:54:00 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,02,-1
+2015-05-21 19:54:00 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20090108,01,-1
+2015-05-21 19:54:00 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20070108,01,1
+2015-05-21 19:55:05 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:55:09 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:56:12 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 19:57:15 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 20:02:16 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 20:03:00 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 20:05:47 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 20:05:54 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080109,01,0
+2015-05-21 20:05:56 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080107,01,0
+2015-05-21 20:05:57 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,02,-1
+2015-05-21 20:05:58 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20090108,01,-1
+2015-05-21 20:05:59 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20070108,01,1
+2015-05-21 20:05:59 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080208,01,-1
+2015-05-21 20:06:00 INFO  YearMonthToInfractionWritableTest:39 - => 20081208,01,20090108,01,-1
+2015-05-21 20:06:01 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20070108,01,1
+2015-05-21 20:06:01 INFO  YearMonthToInfractionWritableTest:39 - => 20080208,01,20080108,01,1
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080109,01,0
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080107,01,0
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,02,-1
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20090108,01,-1
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20070108,01,1
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080208,01,-1
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20081208,01,20090108,01,-1
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20070108,01,1
+2015-05-21 20:06:31 INFO  YearMonthToInfractionWritableTest:39 - => 20080208,01,20080108,01,1
+2015-05-22 01:29:23 INFO  YearMonthInfractionMapperTest:55 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+
+2015-05-22 01:29:24 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:29:24 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:31:17 INFO  YearMonthInfractionMapperTest:55 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+
+2015-05-22 01:31:18 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:31:18 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:32:12 INFO  YearMonthInfractionMapperTest:55 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+
+2015-05-22 01:32:12 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:32:12 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:33:35 INFO  YearMonthInfractionMapperTest:55 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+
+2015-05-22 01:33:35 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:33:35 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:33:35 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+)
+2015-05-22 01:34:18 INFO  YearMonthInfractionMapperTest:55 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+
+2015-05-22 01:34:18 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:34:18 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:34:23 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+)
+2015-05-22 01:35:22 INFO  YearMonthInfractionMapperTest:55 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+
+2015-05-22 01:35:22 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:35:22 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:35:23 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+)
+2015-05-22 01:35:23 WARN  TestDriver:722 - ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable.equals(Object) is not being overridden - tests may fail!
+2015-05-22 01:35:23 WARN  TestDriver:726 - ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable.hashCode() is not being overridden - tests may fail!
+2015-05-22 01:35:23 WARN  TestDriver:730 - ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable.toString() is not being overridden - test failures may be difficult to diagnose.
+2015-05-22 01:35:23 WARN  TestDriver:732 - Consider executing test using run() to access outputs
+2015-05-22 01:35:23 ERROR TestDriver:49 - Missing expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@481a996b, 30,ON) at position 0.
+2015-05-22 01:35:23 ERROR TestDriver:49 - Received unexpected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@3d51f06e, 30,ON) at position 0.
+2015-05-22 01:40:26 INFO  YearMonthInfractionMapperTest:55 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+
+2015-05-22 01:40:26 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:40:26 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:40:26 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+)
+2015-05-22 01:40:26 WARN  TestDriver:726 - ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable.hashCode() is not being overridden - tests may fail!
+2015-05-22 01:40:26 ERROR TestDriver:49 - Missing expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@481a996b[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at position 0.
+2015-05-22 01:40:26 ERROR TestDriver:49 - Received unexpected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@3d51f06e[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at position 0.
+2015-05-22 01:44:02 INFO  YearMonthInfractionMapperTest:55 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+
+2015-05-22 01:44:02 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:44:02 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:44:02 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+)
+2015-05-22 01:44:03 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@1ab3a8c8[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-05-22 01:46:00 INFO  YearMonthInfractionMapperTest:56 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-05-22 01:46:01 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:46:01 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:46:01 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-05-22 01:46:01 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@1ab3a8c8[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-05-22 01:46:01 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@333291e3[year=2008,month=6,infractionCode=29,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [1]
+2015-05-22 01:46:17 INFO  YearMonthInfractionMapperTest:56 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-05-22 01:46:17 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:46:17 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:46:17 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-05-22 01:46:17 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@1ab3a8c8[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-05-22 01:46:17 ERROR TestDriver:49 - Missing expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@333291e3[year=2008,month=6,infractionCode=291,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at position 1.
+2015-05-22 01:46:17 ERROR TestDriver:49 - Received unexpected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@479d31f3[year=2008,month=6,infractionCode=29,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at position 1.
+2015-05-22 01:50:49 INFO  YearMonthInfractionMapperTest:56 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-05-22 01:50:49 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:50:49 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:50:49 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-05-22 01:50:50 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@55b7a4e0[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-05-22 01:50:50 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@192d43ce[year=2008,month=6,infractionCode=29,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [1]
+2015-05-22 01:53:45 INFO  YearMonthInfractionMapperTest:51 - 0 => FLV1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-05-22 01:53:46 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-05-22 01:53:46 DEBUG Shell:396 - setsid exited with exit code 0
+2015-05-22 01:53:46 DEBUG MapDriverBase:296 - Mapping input (FLV1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-05-22 01:53:46 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@55b7a4e0[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-05-22 01:53:46 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@192d43ce[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,01,0
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080109,01,0
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080107,01,0
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080108,02,-1
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20090108,01,-1
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20070108,01,1
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20080208,01,-1
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20081208,01,20090108,01,-1
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080108,01,20070108,01,1
+2015-05-22 08:39:22 INFO  YearMonthToInfractionWritableTest:39 - => 20080208,01,20080108,01,1
+2015-05-26 20:53:08 INFO  YearPartionerTest:30 - => 20080108,01,1,1
+2015-05-26 20:53:49 INFO  YearPartionerTest:31 - => 20080108,01,1,0
+2015-05-26 20:53:49 INFO  YearPartionerTest:31 - => 20080108,01,2,0
+2015-05-26 20:53:49 INFO  YearPartionerTest:31 - => 20090108,01,1,0
+2015-05-26 20:53:49 INFO  YearPartionerTest:31 - => 20090108,01,2,1
+2015-05-26 21:22:28 INFO  YearPartionerTest:30 - => 20080108,01,20080108,0
+2015-05-26 21:22:28 INFO  YearPartionerTest:30 - => 20080108,01,20080208,0
+2015-05-26 21:22:28 INFO  YearPartionerTest:30 - => 20080108,01,20090208,1
+2015-05-26 21:22:52 INFO  YearPartionerTest:31 - => 20080108,01,20080108,0
+2015-05-26 21:22:52 INFO  YearPartionerTest:31 - => 20080108,01,20080208,0
+2015-05-26 21:22:52 INFO  YearPartionerTest:31 - => 20080108,01,20090208,-1
+2015-05-26 21:22:52 INFO  YearPartionerTest:31 - => 20080108,01,20070208,1
+2015-05-26 21:23:13 INFO  YearPartionerTest:31 - => 20080108,01,20080108,0
+2015-05-26 21:23:13 INFO  YearPartionerTest:31 - => 20080108,01,20080208,0
+2015-05-26 21:23:13 INFO  YearPartionerTest:31 - => 20080108,01,20090108,-1
+2015-05-26 21:23:13 INFO  YearPartionerTest:31 - => 20080108,01,20070108,1
+2015-05-26 22:33:25 INFO  YearPartionerTest:31 - => 20080108,01,20080108,0
+2015-05-26 22:33:25 INFO  YearPartionerTest:31 - => 20080108,01,20080208,0
+2015-05-26 22:35:20 INFO  YearPartionerTest:31 - => 20080108,01,20080108,0
+2015-05-26 22:35:20 INFO  YearPartionerTest:31 - => 20080108,01,20080208,0
+2015-05-26 22:36:23 INFO  YearPartionerTest:31 - => 20080108,01,20080108,0
+2015-05-26 22:36:23 INFO  YearPartionerTest:31 - => 20080108,01,20080208,0
+2015-05-26 22:51:56 INFO  YearPartionerTest:34 - => 20080108,01,20080108,0
+2015-05-26 22:51:56 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:51:56 INFO  YearPartionerTest:34 - => 20080108,01,20080208,0
+2015-05-26 22:51:56 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:51:56 INFO  YearPartionerTest:34 - => 20080108,01,20090108,-1
+2015-05-26 22:51:56 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:51:56 INFO  YearPartionerTest:34 - => 20080108,01,20070108,1
+2015-05-26 22:51:56 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:58:57 INFO  YearPartionerTest:34 - => 20080108,01,20080108,0
+2015-05-26 22:58:57 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:58:57 INFO  YearPartionerTest:34 - => 20080108,01,20080208,0
+2015-05-26 22:58:57 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:58:57 INFO  YearPartionerTest:34 - => 20080108,01,20090108,-1
+2015-05-26 22:58:57 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:58:57 INFO  YearPartionerTest:34 - => 20080108,01,20070108,1
+2015-05-26 22:58:57 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:27 INFO  YearPartionerTest:35 - => 20080108,01,20080108,0
+2015-05-26 22:59:27 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:27 INFO  YearPartionerTest:35 - => 20080108,01,20080208,0
+2015-05-26 22:59:27 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:27 INFO  YearPartionerTest:35 - => 20080108,01,20090108,-1
+2015-05-26 22:59:27 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:27 INFO  YearPartionerTest:35 - => 20080108,01,20070108,1
+2015-05-26 22:59:27 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:27 INFO  YearPartionerTest:35 - => 20080108,01,20020108,2
+2015-05-26 22:59:27 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:45 INFO  YearPartionerTest:35 - => 20080108,01,20080108,0
+2015-05-26 22:59:45 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:45 INFO  YearPartionerTest:35 - => 20080108,01,20080208,0
+2015-05-26 22:59:45 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:45 INFO  YearPartionerTest:35 - => 20080108,01,20090108,-1
+2015-05-26 22:59:45 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:45 INFO  YearPartionerTest:35 - => 20080108,01,20070108,1
+2015-05-26 22:59:45 INFO  YearComparator:32 - Year 1 : 1 :  
+2015-05-26 22:59:45 INFO  YearPartionerTest:35 - => 20080108,01,20060108,2
+2015-05-26 22:59:45 INFO  YearComparator:32 - Year 1 : 1 :  

@@ -1,0 +1,71 @@
+package ca.effpro.learn.hadoop.mr.tpt.exer1;
+
+import java.io.IOException;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mrunit.mapreduce.MapDriver;
+import org.junit.Before;
+import org.junit.Test;
+
+import ca.effpro.hadoop.mrbasics.old.Redr;
+
+public class YearMonthInfractionMapperTest {
+
+	private static final Log logger = LogFactory
+			.getLog(YearMonthInfractionMapperTest.class);
+
+	MapDriver<Text, Text, YearMonthToInfractionWritable, Text>  mapDriver;  
+	
+	@Before
+	public void setUp() {
+		System.setProperty("hadoop.home.dir", "C:\\Dev\\workspace\\lib\\hadoop-2.6.0");
+		YearMonthInfractionMapper mapper = new YearMonthInfractionMapper();
+		Redr reducer = new Redr();
+		mapDriver = MapDriver.newMapDriver(mapper);
+	}
+
+	@Test
+	public void testMapper() throws IOException {
+		
+		String[][] params = new String[] {
+			new String[] {"FLV1"
+					
+			,"***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON" \
+			+ "***07839,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON"
+			,
+			}	
+				
+				
+		}
+		
+		
+		
+		YearMonthToInfractionWritable writable;
+		
+		Text key = new Text("Parking_Tags_data_2008.csv");
+		***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON	
+			
+		***07839,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON	
+			
+		***37559,20080627,3,PARK/LEAVE ON PRIVATE PROPERTY,30,0036,,43 THORNCLIFFE PK DR,,,ON	
+			
+		***39278,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0036,NR,7 LEONARD AVE,,,ON	
+			
+		***23124,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0036,NR,455 HURON ST,,,ON	
+			
+		***35071,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0036,NR,50 MACDONELL AVE,,,AZ	
+			
+		***14194,20080627,29,PARK PROHIBITED TIME NO PERMIT,30,0036,OPP,30 DUNDONALD ST,,,ON	
+		
+		
+		mapDriver.withInput(new LongWritable(1), new Text(
+				"655209;1;796764372490213;804422938115889;6"));
+		mapDriver.withOutput(new Text("6"), new IntWritable(1));
+		mapDriver.runTest();
+	}
+
+}

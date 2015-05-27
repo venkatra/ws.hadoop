@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="YearGroupComparatorTest.test$Compare" project="mapreduce" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="test$Compare" classname="ca.effpro.learn.hadoop.mr.tpt.exer1.YearGroupComparatorTest" time="0.035"/>
+</testrun>

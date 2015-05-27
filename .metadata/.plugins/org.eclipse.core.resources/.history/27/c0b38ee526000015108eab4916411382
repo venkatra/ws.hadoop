@@ -1,0 +1,71 @@
+package ca.effpro.learn.hadoop.mr.tpt.exer1;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+import java.util.Date;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.WritableComparable;
+import org.apache.http.impl.cookie.DateUtils;
+
+/**
+ * A custom writable class which will be composed of the following items
+ * <ol> year
+ * <ol> month
+ * <ol> infraction code
+ * 
+ */
+public class YearMonthToInfractionWritable implements WritableComparable<YearMonthToInfractionWritable>{
+
+	private IntWritable year;
+	private IntWritable month;
+	private Text infractionCode;
+	private Date dt;
+	
+	public void set(String p$yearMonth, String p$infractionCode) {
+		year = new IntWritable(Integer.parseInt(p$yearMonth.substring(0,4)));
+		month = new IntWritable(Integer.parseInt(p$yearMonth.substring(5,6)));
+		infractionCode = new Text(p$infractionCode);
+		
+		dt = DateUtils.parseDate(p$yearMonth,new String[] {"YYYYMMDD" });
+	}
+	
+	public void set(IntWritable p$year, IntWritable p$month, Text p$infractionCode) {
+		year = p$year;
+		month = p$month ;
+		infractionCode = p$infractionCode;
+	}
+	
+	public int compareTo(YearMonthToInfractionWritable p$writable) {
+		
+		Date dt = new Date(year, )
+		DateUtil
+		int cmp = year.compareTo(p$writable.year);
+		
+		if(cmp != 0) return cmp;
+		
+		cmp = month.compareTo(p$writable.month);
+
+		if(cmp != 0) return cmp;
+		
+		return infractionCode.compareTo(p$writable.infractionCode);
+	}
+	
+	
+	public void readFields(DataInput din) throws IOException {
+		year.readFields(din);
+		month.readFields(din);
+		infractionCode.readFields(din);
+	}
+
+	public void write(DataOutput dout) throws IOException {
+		year.write(dout);
+		month.write(dout);
+		infractionCode.write(dout);
+	}
+
+	
+
+}

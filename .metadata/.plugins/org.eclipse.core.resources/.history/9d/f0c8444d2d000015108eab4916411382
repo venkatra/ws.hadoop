@@ -1,0 +1,83 @@
+package ca.effpro.learn.hadoop.mr.tpt.exer1;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+import org.apache.commons.lang3.time.DateUtils;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.WritableComparable;
+
+/**
+ * A custom writable class which will be composed of the following items
+ * <ol>
+ * year
+ * <ol>
+ * month
+ * <ol>
+ * infraction code
+ * 
+ */
+public class YearMonthToInfractionWritable implements
+		WritableComparable<YearMonthToInfractionWritable> {
+
+	private static final String[] DATE_FORMATS = new String[] { "yyyyMMdd" };
+	private IntWritable year;
+	private IntWritable month;
+	private Text infractionCode;
+	private volatile Date dt;
+
+	public void set(String p$yearMonth, String p$infractionCode) {
+		year = new IntWritable(Integer.parseInt(p$yearMonth.substring(0, 4)));
+		month = new IntWritable(Integer.parseInt(p$yearMonth.substring(5, 6)));
+		infractionCode = new Text(p$infractionCode);
+
+		try {
+			dt = DateUtils.parseDate(
+					p$yearMonth.substring(0, 4) + p$yearMonth.substring(5, 6)
+							+ "01", DATE_FORMATS);
+		} catch (Exception e) {
+			System.err.println("Unable to parse date [" + p$yearMonth + "] : "
+					+ e.getMessage());
+		}
+	}
+
+	public void set(IntWritable p$year, IntWritable p$month,
+			Text p$infractionCode) {
+		year = p$year;
+		month = p$month;
+		infractionCode = p$infractionCode;
+	
+		Calendar c = new GregorianCalendar(p$year.get(), p$month.get(), 1);
+		dt = c.getTime();
+	}
+
+	public int compareTo(YearMonthToInfractionWritable p$writable) {
+		int cmp = dt.compareTo(p$writable.dt);
+		if (cmp != 0)
+			return cmp;
+
+		return infractionCode.compareTo(p$writable.infractionCode);
+	}
+
+	public void readFields(DataInput din) throws IOException {
+		year.readFields(din);
+		month.readFields(din);
+		infractionCode.readFields(din);
+
+		// called the set method to initialize the date
+		set(year, month, infractionCode);
+
+	}
+
+	public void write(DataOutput dout) throws IOException {
+		year.write(dout);
+		month.write(dout);
+		infractionCode.write(dout);
+	}
+
+}

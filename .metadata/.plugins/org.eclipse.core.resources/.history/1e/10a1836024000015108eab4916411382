@@ -1,0 +1,36 @@
+package ca.effpro.learn.hadoop.mr.tpt.exer1;
+
+import static org.junit.Assert.fail;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.junit.Test;
+
+public class YearMonthToInfractionWritableTest {
+	private static final Log logger = LogFactory
+			.getLog(YearMonthToInfractionWritableTest.class);
+
+	@Test
+	public void testCompareTo() {
+		
+		String[][] params = new String[][]{
+			new String[] {"200801","01","200801","01","0"},
+			new String[] {"200801","01","200901","01","1"},
+			
+			
+			
+		};
+		
+		
+		YearMonthToInfractionWritable writable = new YearMonthToInfractionWritable();
+		for(String[] param : params) {
+			logger.info("=> " + StringUtils.join(param,","));
+			
+			
+			
+		}
+		
+	}
+
+}
