@@ -1,0 +1,20 @@
+package ca.effpro.learn.hadoop.mr.tpt.exer1;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+
+public class YearlyCollectionOfAmountToInfractionReducerTest {
+	ReduceDriver<YearMonthToInfractionWritable, Text, Text, IntWritable> reduceDriver = ReduceDriver
+			.newReduceDriver(new YearlyCollectionOfAmountToInfractionReducer());
+
+	@Before
+	public void setUp() {
+		System.setProperty("hadoop.home.dir",
+				"C:\\Dev\\workspace\\lib\\hadoop-2.6.0");
+		Mappr mapper = new Mappr();
+		Redr reducer = new Redr();
+		mapDriver = MapDriver.newMapDriver(mapper);
+		reduceDriver = ReduceDriver.newReduceDriver(reducer);
+		mapReduceDriver = MapReduceDriver.newMapReduceDriver(mapper, reducer);
+	}
+}

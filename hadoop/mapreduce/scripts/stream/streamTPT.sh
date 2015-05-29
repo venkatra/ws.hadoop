@@ -11,7 +11,7 @@ OUTPUT_PATH=/user/it1/data/input/seq/stream
 # job could run the same
 # 
 MAP_SCRIPT=/bin/cat
-REDUCE_SCRIPT=/home/it1/mapreduce.learn/streamreduce.sh
+#REDUCE_SCRIPT=/home/it1/mapreduce.learn/streamreduce.sh
 
 
 echo "Deleting existing $OUTPUT_DIR ..."
@@ -44,8 +44,8 @@ CMD_ARGS="$CMD_ARGS -inputformat org.apache.hadoop.mapred.SequenceFileInputForma
 #CMD_ARGS="$CMD_ARGS -outputformat TextOutputFormat"
 #CMD_ARGS="$CMD_ARGS -verbose"
 CMD_ARGS="$CMD_ARGS -mapper $MAP_SCRIPT"
-CMD_ARGS="$CMD_ARGS -reducer $REDUCE_SCRIPT"
-CMD_ARGS="$CMD_ARGS -numReduceTasks 0"
+#CMD_ARGS="$CMD_ARGS -reducer $REDUCE_SCRIPT"
+#CMD_ARGS="$CMD_ARGS -numReduceTasks 0"
 
 # streamjob
 STREAM_JOB_CMD="hadoop jar /usr/hdp/2.2.4.2-2/hadoop-mapreduce/hadoop-streaming.jar "
