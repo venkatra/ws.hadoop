@@ -9,6 +9,8 @@ import java.util.GregorianCalendar;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
@@ -26,6 +28,9 @@ import org.apache.hadoop.io.WritableComparable;
 public class YearMonthToInfractionWritable implements
 		WritableComparable<YearMonthToInfractionWritable> {
 
+	private static final Log logger = LogFactory
+			.getLog(YearMonthToInfractionWritable.class);
+
 	private IntWritable year = new IntWritable();
 	private IntWritable month = new IntWritable();
 	private Text infractionCode = new Text();
@@ -36,6 +41,7 @@ public class YearMonthToInfractionWritable implements
 	private volatile Date dt;
 
 	public void set(String p$yearMonth, String p$infractionCode) {
+		
 		year.set(Integer.parseInt(p$yearMonth.substring(0, 4)));
 		month.set(Integer.parseInt(p$yearMonth.substring(5, 6)));
 		infractionCode.set(p$infractionCode);
@@ -63,8 +69,11 @@ public class YearMonthToInfractionWritable implements
 		int cmp = dt.compareTo(p$writable.dt);
 		if (cmp != 0)
 			return cmp;
-
-		return infractionCode.compareTo(p$writable.infractionCode);
+		
+		int cd1 = Integer.parseInt(infractionCode.toString());
+		int cd2 = Integer.parseInt(p$writable.infractionCode.toString());
+		
+		return Integer.compare(cd1, cd2);
 	}
 
 	@Override

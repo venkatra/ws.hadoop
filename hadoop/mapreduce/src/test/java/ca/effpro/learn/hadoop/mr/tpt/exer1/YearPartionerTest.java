@@ -15,6 +15,10 @@ public class YearPartionerTest {
 	@Test
 	public void test$getPartion() {
 		
+		//logger.info("OUT: " + StringUtils.strip("  2 0 0 8 0 2 0 5 ".trim().replaceAll(" ","")));
+		
+		//if(1==1) return;
+		
 		String[][] params = new String[][]{
 			new String[] {"20080108","01","1","0"},
 			new String[] {"20080108","01","2","0"},

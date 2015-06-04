@@ -28,8 +28,21 @@ public class YearComparator extends WritableComparator {
 			int year1 = WritableUtils.decodeVIntSize(b1[s1]) + readVInt(b1,s1);
 			int year2 = WritableUtils.decodeVIntSize(b2[s2]) + readVInt(b2,s2);
 			
-			logger.info("Year 1 : " + year1 + " : " + new String(b1, s1, year1).charAt(0));
-			return INT_COMPARATOR.compare(b1, s1, year1, b2, s2  ,year2);
+			logger.info("Year 1 : " + year1 + " : " + new String(b1, s1, year1));
+			
+			int cmp =  INT_COMPARATOR.compare(b1, s1, year1, b2, s2  ,year2);
+			
+//			if(cmp != 0)
+				return cmp;
+			
+//			int month1 = WritableUtils.decodeVIntSize(b1[year1+1]) + readVInt(b1,year1+1);
+//			int month2 = WritableUtils.decodeVIntSize(b2[year2+1]) + readVInt(b2,year2+1);
+//			
+//			int ic1 = WritableUtils.decodeVIntSize(b1[month1+1]) + readVInt(b1,month1+1);
+//			int ic2 = WritableUtils.decodeVIntSize(b2[month1+1]) + readVInt(b2,month1+1);
+//			
+//			return INT_COMPARATOR.compare(b1, month1, ic1, b2, month2  ,ic2);
+			
 		}catch(Exception ex) {
 			ex.printStackTrace();
 		}

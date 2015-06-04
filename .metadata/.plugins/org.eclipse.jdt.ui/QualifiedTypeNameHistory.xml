@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Byte"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.ArrayUtils"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.RecordReader"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.apache.http.impl.cookie.DateUtils"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.time.DateUtils"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mrunit.types.Pair"/>
+<fullyQualifiedTypeName name="ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.builder.ToStringBuilder"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.builder.HashCodeBuilder"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+<fullyQualifiedTypeName name="ca.effpro.learn.hadoop.mr.tpt.exer1.YearPartioner"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.WritableUtils"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable.Comparator"/>
+<fullyQualifiedTypeName name="ca.effpro.learn.hadoop.mr.tpt.exer1.YearComparator"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mrunit.mapreduce.MapReduceDriver"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mrunit.mapreduce.MapDriver"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mrunit.mapreduce.ReduceDriver"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.TextOutputFormat"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang.StringUtils"/>
+</qualifiedTypeNameHistroy>

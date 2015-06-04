@@ -31,12 +31,12 @@ public class YearMonthInfractionMapperTest {
 
 		String[][] params = new String[][] { 
 				//set 1
-				new String[] {"FLV1",
+				new String[] {"SET1",
 								"***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON"
 								+ "\n***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON"
 				},
 				
-				//set 2
+				
 		};
 
 		//YearMonthToInfractionWritable k2 = new YearMonthToInfractionWritable();
@@ -47,8 +47,9 @@ public class YearMonthInfractionMapperTest {
 		int idx = 0;
 		
 		for (String[] dataLine : params) {
+			outputPairs.clear();
 			
-			logger.info((idx++) + " => " + StringUtils.join(dataLine, " / "));
+			logger.info("\n\n\n\n " + (idx++) + " => " + StringUtils.join(dataLine, " / "));
 			
 			k1 = new Text(dataLine[0]);
 			v1 = new Text(dataLine[1]);
@@ -58,6 +59,7 @@ public class YearMonthInfractionMapperTest {
 			String dateOfInfraction, infractionCode, fineAmount, province;
 
 			for (String line : dataLines) {
+				line  = line.replace(" ","");
 				valArray = line.split(",");
 				dateOfInfraction = valArray[1];
 				infractionCode = valArray[2];

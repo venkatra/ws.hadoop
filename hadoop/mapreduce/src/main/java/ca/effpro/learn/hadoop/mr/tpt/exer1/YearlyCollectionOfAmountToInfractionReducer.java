@@ -24,8 +24,6 @@ public class YearlyCollectionOfAmountToInfractionReducer extends
 			Reducer<YearMonthToInfractionWritable, Text, Text, IntWritable>.Context context)
 			throws IOException, InterruptedException {
 		
-		logger.info("reducer invoked ...");
-
 		int totalAmount = 0;
 		String[] valsConsituent;
 		
@@ -36,8 +34,9 @@ public class YearlyCollectionOfAmountToInfractionReducer extends
 		
 		int year = key.getYear().get();
 		String infractionCode = key.getInfractionCode().toString();
+		logger.info("+>" + year + ":" + infractionCode);
 		
-		k4.set(StringUtils.join(year ,"," ,infractionCode));
+		k4.set(StringUtils.join(year ,"," ,infractionCode).trim());
 		v4.set(totalAmount);
 		
 		context.write(k4, v4);

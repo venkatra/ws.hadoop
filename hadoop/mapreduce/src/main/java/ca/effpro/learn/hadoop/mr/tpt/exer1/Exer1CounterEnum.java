@@ -6,16 +6,9 @@ package ca.effpro.learn.hadoop.mr.tpt.exer1;
  */
 public enum Exer1CounterEnum { 
 	
-	/**
-	 * Counter for infraction code
-	 */
-	INFRACTION_CODE_COUNTER
+	INVALID_RECORD_COUNTER
 	
-	/**
-	 * Counter for province
-	 */
-	, PROVINCE_COUNTER
-		
-		;
-	}
+	,PROCESSED_RECORD_COUNTER
+	;
+}
 
