@@ -1,0 +1,73 @@
+package ca.effpro.learn.hadoop.mr.tpt.avro;
+
+import java.io.IOException;
+
+import org.apache.avro.mapred.AvroKey;
+import org.apache.avro.mapred.AvroValue;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.hadoop.io.BytesWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+import ca.effpro.learn.avro.tpt.ParkingTicket;
+
+/**
+ * Used for logging file names (in the zip file) entries.
+ * 
+ * Input Key : filename (from zip file) Input Value : file content Output Key :
+ * filename (from zip file) Output Value : file content
+ *
+ */
+public class ZipFileEntriesToAvroMapper extends
+		Mapper<Text, BytesWritable, AvroKey<CharSequence>, AvroValue<ParkingTicket>> {
+	private static final Log logger = LogFactory
+			.getLog(ZipFileEntriesToAvroMapper.class);
+
+	private AvroKey<CharSequence> k2 = new AvroKey<CharSequence>();
+	private AvroValue<ParkingTicket> v2 = new AvroValue<ParkingTicket>();
+	
+	private String fromPreviousRow = "";
+
+	public void map(Text k1, BytesWritable v1,
+			Mapper<Text, BytesWritable, AvroKey<CharSequence>, AvroValue<ParkingTicket>>.Context context)
+			throws IOException, InterruptedException {
+
+		String row = fromPreviousRow + new String(v1.getBytes());
+		int idx = row.lastIndexOf('\n');
+
+		fromPreviousRow = row.substring(idx);
+		
+		String[] dataRows = row.substring(0, idx).split("\n");
+		String[] cols;
+		for(String dataRow : dataRows) {
+		
+			cols = dataRow.split(",");
+			
+			v2 = new AvroValue<ParkingTicket>();
+			
+			
+			
+			
+		  	{"name" : "infractionDate", "type" : "string"}, 
+		  	{"name" : "infractionCode", "type" : "int"}, 
+		  	{"name" : "fineAmount", "type" : "int"}, 
+		  	{"name" : "infractionTime", "type" : "string"}, 
+		  	{"name" : "location1", "type" : "string"}, 
+		  	{"name" : "location2", "type" : "string"}, 
+		  	{"name" : "location3", "type" : "string"}, 
+		  	{"name" : "location4", "type" : "string"}, 
+		  	{"name" : "province", "type" : "string"} 
+			
+			
+			
+			
+			k2 = new AvroKey<CharSequence>(k1.toString());
+			context.write(k2, v2);
+		}
+		
+		
+		
+		
+	}
+}

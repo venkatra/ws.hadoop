@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# This script is used to upload the various artifacts to the hadoop sandbox.
+#
+
+FLZ=
+FLZ="$FLZ scripts/processTPTAvroFile.pig"
+FLZ="$FLZ ../avro/src/main/java/ca/effpro/learn/avro/tpt/parkingTicket.avsc"
+
+FLZ="$FLZ $HOME/.m2/repository/ca/effpro/learn/hadoop/avro/0.0.1-SNAPSHOT/avro-0.0.1-SNAPSHOT.jar"
+FLZ="$FLZ $HOME/.m2/repository/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7.jar"
+FLZ="$FLZ $HOME/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.jar"
+
+scp -P 2222 $FLZ it1@localhost:./mapreduce.learn

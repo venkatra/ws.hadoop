@@ -1,0 +1,45 @@
+package ca.effpro.learn.hadoop.mr.tpt.avro;
+
+import java.io.IOException;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.hadoop.io.BytesWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+/**
+ * Used for logging file names (in the zip file) entries.
+ * 
+ * Input Key : filename (from zip file) Input Value : file content Output Key :
+ * filename (from zip file) Output Value : file content
+ *
+ */
+public class ZipFileEntriesToAvroMapper extends
+		Mapper<Text, BytesWritable, Text, Text> {
+	private static final Log logger = LogFactory
+			.getLog(ZipFileEntriesToAvroMapper.class);
+
+	private Text outKey = new Text();
+	private Text outValue = new Text();
+	
+	private String fromPreviousRow = "";
+
+	public void map(Text key, BytesWritable value,
+			Mapper<Text, BytesWritable, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+
+		String row = fromPreviousRow + new String(value.getBytes());
+		int idx = row.lastIndexOf('\n');
+
+		fromPreviousRow = row.substring(idx);
+		outValue.set(row.substring(0, idx));
+
+		logger.info("Key : " + key.toString());
+		logger.info("OUT VAL : " + outValue.toString());
+		logger.info("IN VAL : " + row);
+		
+		if(1==1) throw new IOException("IOIOIOIO");
+		context.write(key, outValue);
+	}
+}

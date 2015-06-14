@@ -1,9 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=mapreduce/\/Users\/d3vl0p3r\/.m2\/repository\/org\/apache\/commons\/commons-lang3\/3.3.2\/commons-lang3-3.3.2.jar&lt;org.apache.commons.lang3.time(DateUtils.class[DateUtils" modifiers="33" timestamp="1430098996000"/>
-<typeInfo handle="=mapreduce/\/Users\/d3vl0p3r\/.m2\/repository\/org\/apache\/hadoop\/hadoop-common\/2.6.0\/hadoop-common-2.6.0.jar&lt;org.apache.hadoop.io(Writable.class[Writable" modifiers="1537" timestamp="1430098973000"/>
-<typeInfo handle="=mapreduce/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.text(DateFormat.class[DateFormat" modifiers="1057" timestamp="1428689516000"/>
-<typeInfo handle="=mapreduce/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_45.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(Calendar.class[Calendar" modifiers="1057" timestamp="1428689516000"/>
-<typeInfo handle="=mapreduce/\/Users\/d3vl0p3r\/.m2\/repository\/org\/apache\/commons\/commons-lang3\/3.3.2\/commons-lang3-3.3.2.jar&lt;org.apache.commons.lang3.time(DateFormatUtils.class[DateFormatUtils" modifiers="33" timestamp="1430098996000"/>
-<typeInfo handle="=mapreduce/\/Users\/d3vl0p3r\/.m2\/repository\/org\/apache\/commons\/commons-lang3\/3.3.2\/commons-lang3-3.3.2.jar&lt;org.apache.commons.lang3.builder(HashCodeBuilder.class[HashCodeBuilder" modifiers="33" timestamp="1430098996000"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

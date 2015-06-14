@@ -6,26 +6,17 @@
 		<artifactId>hadoop</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>ca.effpro.learn.hadoop</groupId>
 	<artifactId>mapreduce</artifactId>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<hadoop.version>2.6.0</hadoop.version>
+		<avro.version>1.7.7</avro.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>cloudera</id>
-			<url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
+	<!-- <repositories> <repository> <id>cloudera</id> <url>https://repository.cloudera.com/artifactory/cloudera-repos</url> 
+		<releases> <enabled>true</enabled> </releases> <snapshots> <enabled>true</enabled> 
+		</snapshots> </repository> </repositories> -->
 
 	<dependencies>
 		<dependency>
@@ -73,7 +64,17 @@
 			<artifactId>poi</artifactId>
 			<version>3.11</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.avro</groupId>
+			<artifactId>avro-mapred</artifactId>
+			<version>${avro.version}</version>
+			<classifier>hadoop2</classifier>
+		</dependency>
+		<dependency>
+			<groupId>ca.effpro.learn.hadoop</groupId>
+			<artifactId>avro</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<profiles>
@@ -103,14 +104,8 @@
 		</profile>
 	</profiles>
 
-	<!-- <build> <pluginManagement> <plugins> <plugin> <groupId>org.apache.avro</groupId> 
-		<artifactId>avro-maven-plugin</artifactId> <version>1.7.7</version> <executions> 
-		<execution> <phase>generate-sources</phase> <goals> <goal>schema</goal> </goals> 
-		<configuration> <sourceDirectory>${project.basedir}/src/main/java/ca/effpro/avro/objects/</sourceDirectory> 
-		<outputDirectory>${project.basedir}/src/main/java/ca/effpro/avro/objects/</outputDirectory> 
-		</configuration> </execution> </executions> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
-		<artifactId>maven-compiler-plugin</artifactId> <configuration> <source>1.6</source> 
-		<target>1.6</target> </configuration> </plugin> </plugins> </pluginManagement> 
-		</build> -->
+
+
+	<groupId>ca.effpro.learn.hadoop</groupId>
 </project>
   

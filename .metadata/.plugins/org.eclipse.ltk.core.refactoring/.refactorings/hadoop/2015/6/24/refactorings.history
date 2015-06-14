@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hadoop/tptavro&apos; to &apos;avro&apos;" description="Rename resource &apos;tptavro&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="tptavro" name="avro" stamp="1433673624235" updateReferences="true"/>
+</session>

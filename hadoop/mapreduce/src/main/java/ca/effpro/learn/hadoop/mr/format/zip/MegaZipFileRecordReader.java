@@ -49,7 +49,7 @@ public class MegaZipFileRecordReader extends ZipFileRecordReader {
 			previousOffset = 0;
 		}
 
-		logger.info("Offset : " + previousOffset );
+		//logger.info("Offset : " + previousOffset );
 		// Read the file contents
 		int bytesRead = 0;
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
@@ -64,13 +64,13 @@ public class MegaZipFileRecordReader extends ZipFileRecordReader {
 		}
 
 		if (bytesRead <= 0) {
-			logger.info("Finished reading file : " + entry.getName() );
+			//logger.info("Finished reading file : " + entry.getName() );
 			zip.closeEntry();
 			entry = null;
 			previousOffset = 0;
 
 		} else {
-			logger.info("Total bytes read of file [" + entry.getName() + "] : " + (previousOffset + bytesRead));
+			//logger.info("Total bytes read of file [" + entry.getName() + "] : " + (previousOffset + bytesRead));
 			bos.write(temp, 0, bytesRead);
 			currentValue = new BytesWritable(bos.toByteArray());
 			previousOffset += bytesRead;

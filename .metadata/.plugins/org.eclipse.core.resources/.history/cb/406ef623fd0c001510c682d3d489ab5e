@@ -1,0 +1,16 @@
+{
+  "type" : "record",
+  "namespace" : "ca.effpro.learn.hadoop.mr.tpt.avro",
+  "name" : "ParkingTicket",
+  "fields" : [ 
+  	{"name" : "infractionDate", "type" : "string"}, 
+  	{"name" : "infractionCode", "type" : "int"}, 
+  	{"name" : "fineAmount", "type" : "int"}, 
+  	{"name" : "infractionTime", "type" : "string"}, 
+  	{"name" : "location1", "type" : "string"}, 
+  	{"name" : "location2", "type" : "string"}, 
+  	{"name" : "location3", "type" : "string"}, 
+  	{"name" : "location4", "type" : "string"}, 
+  	{"name" : "province", "type" : "string"} 
+  	]
+}

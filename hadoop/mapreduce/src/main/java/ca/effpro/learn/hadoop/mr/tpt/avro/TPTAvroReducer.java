@@ -1,0 +1,46 @@
+package ca.effpro.learn.hadoop.mr.tpt.avro;
+
+import java.io.IOException;
+
+import org.apache.avro.mapred.AvroKey;
+import org.apache.avro.mapred.AvroValue;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+import ca.effpro.hadoop.mrbasics.old.RegionToUniqueLinkReducer;
+import ca.effpro.learn.avro.tpt.ParkingTicket;
+
+public class TPTAvroReducer extends
+		Reducer<Text, Text, AvroKey<Text>, AvroValue<ParkingTicket>> {
+
+	private static final Log logger = LogFactory
+			.getLog(RegionToUniqueLinkReducer.class);
+
+	AvroKey<Text> k4 = new AvroKey<Text>(new Text("TPT"));
+	AvroValue<ParkingTicket> v4 = new AvroValue<ParkingTicket>();
+
+	@Override
+	public void reduce(Text k3, Iterable<Text> v3, Context context)
+			throws IOException, InterruptedException {
+
+		String[] cols;
+		ParkingTicket tkt;
+		for (Text value : v3) {
+
+			cols = value.toString().split(",");
+
+			tkt = new ParkingTicket();
+			tkt.setInfractionDate(cols[1]);
+			tkt.setInfractionCode(Integer.parseInt(cols[2]));
+			tkt.setFineAmount(Integer.parseInt(cols[4]));
+			tkt.setLocation1(cols[7]);
+			tkt.setProvince(cols[10]);
+
+			v4.datum(tkt);
+			context.write(k4, v4);
+		}
+
+	}
+}

@@ -7,7 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="datasources"/>
+			<item value="pig"/>
 			<item value="hadoop"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -33,6 +33,18 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item value="480" key="width"/>
+		<item value="354" key="x"/>
+		<item value="141" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="354" key="x"/>
+		<item value="115" key="y"/>
+		<item value="489" key="height"/>
+	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
 			<item value="/Users/d3vl0p3r/Dev/workspace/git/ws.hadoop/hadoop"/>
@@ -57,6 +69,8 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="pig"/>
+			<item value="tptavro"/>
 			<item value="datasources"/>
 			<item value="mapreduce"/>
 		</list>
@@ -81,17 +95,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.datasources"/>
-			<item value="ca.effpro.learn.flume"/>
-			<item value="org.mapreduce"/>
+			<item value="ca.effpro.learn.pig"/>
+			<item value="org.tptavro"/>
+			<item value="org."/>
 		</list>
 		<list key="groupId">
 			<item value="ca.effpro.learn"/>
 		</list>
 		<list key="artifactId">
-			<item value="datasources"/>
-			<item value="flume"/>
-			<item value="mapreduce"/>
+			<item value="pig"/>
+			<item value="tptavro"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -103,5 +116,11 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item value="765" key="width"/>
+		<item value="212" key="x"/>
+		<item value="141" key="y"/>
+		<item value="450" key="height"/>
 	</section>
 </section>

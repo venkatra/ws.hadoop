@@ -3,3 +3,5 @@
 1433385294529	Rename field 'compositeKey$YearMonthToInfractionCode'
 1433385305296	Rename field 'mapValue'
 1433416513979	Rename local variable 'counter'
+1433555631355	Move file
+1433555650540	Move 'runComputeYearlyAmountCollectedByInfraction.sh' to 'scripts'
