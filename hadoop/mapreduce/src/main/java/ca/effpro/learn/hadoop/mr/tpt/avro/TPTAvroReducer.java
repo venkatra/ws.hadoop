@@ -13,12 +13,12 @@ import ca.effpro.hadoop.mrbasics.old.RegionToUniqueLinkReducer;
 import ca.effpro.learn.avro.tpt.ParkingTicket;
 
 public class TPTAvroReducer extends
-		Reducer<Text, Text, AvroKey<Text>, AvroValue<ParkingTicket>> {
+		Reducer<Text, Text, AvroKey<CharSequence>, AvroValue<ParkingTicket>> {
 
 	private static final Log logger = LogFactory
 			.getLog(RegionToUniqueLinkReducer.class);
 
-	AvroKey<Text> k4 = new AvroKey<Text>(new Text("TPT"));
+	AvroKey<CharSequence> k4 = new AvroKey<CharSequence>("TPT");
 	AvroValue<ParkingTicket> v4 = new AvroValue<ParkingTicket>();
 
 	@Override
@@ -37,9 +37,16 @@ public class TPTAvroReducer extends
 			tkt.setFineAmount(Integer.parseInt(cols[4]));
 			tkt.setLocation1(cols[7]);
 			tkt.setProvince(cols[10]);
-
+			
+			tkt.setInfractionTime("");
+			tkt.setLocation2("");
+			tkt.setLocation3("");
+			tkt.setLocation4("");
+			
+			
 			v4.datum(tkt);
 			context.write(k4, v4);
+
 		}
 
 	}

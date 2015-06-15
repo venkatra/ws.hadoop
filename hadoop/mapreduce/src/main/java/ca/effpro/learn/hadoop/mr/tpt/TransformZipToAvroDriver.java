@@ -7,6 +7,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.MRJobConfig;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
@@ -15,7 +16,6 @@ import ca.effpro.learn.avro.tpt.ParkingTicket;
 import ca.effpro.learn.hadoop.mr.MRBase;
 import ca.effpro.learn.hadoop.mr.format.zip.ZipFileInputFormat;
 import ca.effpro.learn.hadoop.mr.tpt.avro.TPTAvroReducer;
-import ca.effpro.learn.hadoop.mr.tpt.avro.ZipFileEntriesToAvroMapper;
 import ca.effpro.learn.hadoop.mr.tpt.avro.ZipFileEntriesToTextMapper;
 
 /**
@@ -39,7 +39,12 @@ public class TransformZipToAvroDriver extends MRBase {
 		if (super.parserArguments(args) < 1)
 			return -1;
 
-		Job job = new Job(getConf(), "Transform tpt zip to avro file");
+		//This override is done otherwise the avro library, present as part of
+		//hadoop distribution is older version than the current avro library version
+		Configuration conf = getConf();
+		conf.setBoolean(MRJobConfig.MAPREDUCE_JOB_USER_CLASSPATH_FIRST, true);
+		Job job = Job.getInstance(conf, "Transform tpt zip to avro file");
+
 		job.setJarByClass(getClass());
 
 		FileInputFormat.setInputPaths(job, new Path(getInputFileDir()));
@@ -55,40 +60,31 @@ public class TransformZipToAvroDriver extends MRBase {
 		job.setReducerClass(TPTAvroReducer.class);
 		AvroJob.setOutputKeySchema(job, Schema.create(Schema.Type.STRING));
 		AvroJob.setOutputValueSchema(job, ParkingTicket.getClassSchema());
-		
+	    
 		return job.waitForCompletion(true) ? 0 : 1;
 	}
 
-	public int run_OLS(String[] args) throws Exception {
-
-		if (super.parserArguments(args) < 1)
-			return -1;
-
-		Job job = new Job(getConf(), "Transform tpt zip to avro file");
-		job.setJarByClass(getClass());
-
-		ZipFileInputFormat.addInputPath(job, new Path(getInputFileDir()));
-		job.setInputFormatClass(ZipFileInputFormat.class);
-		ZipFileInputFormat.setLenient(true);
-		job.setMapperClass(ZipFileEntriesToAvroMapper.class);
-
-		job.setMapOutputValueClass(AvroKeyValueOutputFormat.class);
-		AvroKeyValueOutputFormat.setOutputPath(job,
-				new Path(getOutputFileDir()));
-		AvroJob.setOutputKeySchema(job, Schema.create(Schema.Type.STRING));
-		AvroJob.setOutputValueSchema(job, ParkingTicket.getClassSchema());
-
-		// AvroJob.setInputKeySchema(job, User.getClassSchema());
-		// job.setMapOutputKeyClass(Text.class);
-		// job.setMapOutputValueClass(IntWritable.class);
-
-		job.setOutputFormatClass(AvroKeyValueOutputFormat.class);
-		// job.setReducerClass(ColorCountReducer.class);
-		// AvroJob.setOutputKeySchema(job, Schema.create(Schema.Type.STRING));
-		// AvroJob.setOutputValueSchema(job, Schema.create(Schema.Type.INT));
-
-		return job.waitForCompletion(true) ? 0 : 1;
-	}
+//	public int run_OLS(String[] args) throws Exception {
+//
+//		if (super.parserArguments(args) < 1)
+//			return -1;
+//
+//		Job job = new Job(getConf(), "Transform tpt zip to avro file");
+//		job.setJarByClass(getClass());
+//
+//		ZipFileInputFormat.addInputPath(job, new Path(getInputFileDir()));
+//		job.setInputFormatClass(ZipFileInputFormat.class);
+//		ZipFileInputFormat.setLenient(true);
+//		job.setMapperClass(ZipFileEntriesToAvroMapper.class);
+//
+//		job.setMapOutputValueClass(AvroKeyValueOutputFormat.class);
+//		AvroKeyValueOutputFormat.setOutputPath(job,
+//				new Path(getOutputFileDir()));
+//		AvroJob.setOutputKeySchema(job, Schema.create(Schema.Type.STRING));
+//		AvroJob.setOutputValueSchema(job, ParkingTicket.getClassSchema());
+//
+//		return job.waitForCompletion(true) ? 0 : 1;
+//	}
 
 	public static void main(String[] args) throws Exception {
 		int exitCode = ToolRunner.run(new Configuration(),

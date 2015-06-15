@@ -4078,3 +4078,649 @@ java.io.IOException: Hadoop home directory C:\Dev\workspace\lib\hadoop-2.6.0 doe
 2015-06-14 18:24:54 INFO  YearPartionerTest:34 - => 20080108,01,2,0
 2015-06-14 18:24:54 INFO  YearPartionerTest:34 - => 20090108,01,1,0
 2015-06-14 18:24:54 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 18:39:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 18:39:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 18:39:49 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 18:39:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 18:39:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 18:39:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 18:39:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 18:39:49 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 18:39:49 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 18:39:49 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 18:39:49 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 18:39:49 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 18:39:49 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 18:39:49 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 18:39:49 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 18:39:49 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 18:39:49 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 18:39:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 18:39:49 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 18:39:49 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 18:39:49 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 18:39:49 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 18:46:31 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 18:46:31 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 18:46:31 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 18:46:31 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 18:46:31 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 18:46:31 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 18:46:31 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 18:46:31 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 18:46:31 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 18:46:31 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 18:46:31 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 18:46:31 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 18:46:31 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 18:46:31 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 18:46:31 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 18:46:31 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 18:46:31 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 18:46:31 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 18:46:31 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 18:46:31 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 18:46:31 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 18:46:31 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 20:10:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 20:10:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 20:10:18 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 20:10:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 20:10:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 20:10:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 20:10:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 20:10:18 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 20:10:19 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 20:10:19 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 20:10:19 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 20:10:19 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 20:10:19 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 20:10:19 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 20:10:19 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 20:10:19 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 20:10:19 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 20:10:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 20:10:19 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 20:10:19 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 20:10:19 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 20:10:19 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 22:25:40 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 22:25:40 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 22:25:40 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 22:25:40 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 22:25:40 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 22:25:40 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 22:25:40 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 22:25:40 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 22:25:40 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 22:25:40 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 22:25:40 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 22:25:40 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 22:25:40 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 22:25:40 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 22:25:40 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 22:25:40 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 22:25:40 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 22:25:40 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 22:25:40 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 22:25:40 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 22:25:40 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 22:25:40 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 22:38:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 22:38:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 22:38:04 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 22:38:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 22:38:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 22:38:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 22:38:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 22:38:04 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 22:38:05 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 22:38:05 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 22:38:05 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 22:38:05 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 22:38:05 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 22:38:05 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 22:38:05 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 22:38:05 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 22:38:05 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 22:38:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 22:38:05 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 22:38:05 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 22:38:05 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 22:38:05 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 22:45:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 22:45:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 22:45:49 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 22:45:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 22:45:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 22:45:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 22:45:49 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 22:45:49 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 22:45:49 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 22:45:49 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 22:45:49 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 22:45:49 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 22:45:49 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 22:45:49 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 22:45:49 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 22:45:49 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 22:45:49 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 22:45:49 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 22:45:49 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 22:45:49 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 22:45:49 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 22:45:49 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 23:02:10 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 23:02:10 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 23:02:10 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 23:02:10 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 23:02:10 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 23:02:10 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 23:02:10 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 23:02:10 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 23:02:10 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 23:02:10 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 23:02:10 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 23:02:10 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 23:02:10 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 23:02:10 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 23:02:10 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 23:02:10 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 23:02:10 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 23:02:10 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 23:02:10 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 23:02:10 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 23:02:10 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 23:02:10 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 23:12:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 23:12:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 23:12:04 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 23:12:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 23:12:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 23:12:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 23:12:04 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 23:12:04 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 23:12:05 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 23:12:05 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 23:12:05 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 23:12:05 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 23:12:05 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 23:12:05 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 23:12:05 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 23:12:05 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 23:12:05 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 23:12:05 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 23:12:05 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 23:12:05 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 23:12:05 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 23:12:05 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 23:14:57 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 23:14:57 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 23:14:57 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 23:14:57 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 23:14:57 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 23:14:57 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 23:14:57 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 23:14:57 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 23:14:57 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 23:14:57 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 23:14:57 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 23:14:57 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 23:14:57 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 23:14:57 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 23:14:57 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 23:14:57 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 23:14:57 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 23:14:57 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 23:14:57 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 23:14:57 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 23:14:57 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 23:14:57 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-14 23:21:21 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-14 23:21:21 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-14 23:21:21 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-14 23:21:21 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-14 23:21:21 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-14 23:21:21 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-14 23:21:21 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-14 23:21:21 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-14 23:21:21 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-14 23:21:21 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-14 23:21:21 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-14 23:21:21 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-14 23:21:21 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-14 23:21:21 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-14 23:21:21 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-14 23:21:21 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-14 23:21:21 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-14 23:21:21 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-14 23:21:21 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-14 23:21:21 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-14 23:21:21 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-14 23:21:21 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-15 05:36:07 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-15 05:36:07 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-15 05:36:07 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-15 05:36:07 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-15 05:36:07 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-15 05:36:07 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-15 05:36:07 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-15 05:36:07 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-15 05:36:08 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-15 05:36:08 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-15 05:36:08 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-15 05:36:08 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-15 05:36:08 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-15 05:36:08 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-15 05:36:08 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-15 05:36:08 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-15 05:36:08 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 05:36:08 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-15 05:36:08 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-15 05:36:08 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-15 05:36:08 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-15 05:36:08 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-15 05:57:24 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-15 05:57:24 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-15 05:57:24 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-15 05:57:24 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-15 05:57:24 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-15 05:57:24 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-15 05:57:24 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-15 05:57:24 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-15 05:57:24 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-15 05:57:24 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-15 05:57:24 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-15 05:57:24 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-15 05:57:24 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-15 05:57:24 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-15 05:57:24 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-15 05:57:24 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-15 05:57:24 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 05:57:24 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-15 05:57:24 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-15 05:57:24 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-15 05:57:24 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-15 05:57:24 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-15 06:06:34 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-15 06:06:34 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-15 06:06:34 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-15 06:06:34 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-15 06:06:34 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-15 06:06:34 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-15 06:06:34 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-15 06:06:34 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-15 06:06:34 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-15 06:06:34 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-15 06:06:34 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-15 06:06:34 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-15 06:06:34 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-15 06:06:34 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-15 06:06:34 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-15 06:06:34 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-15 06:06:34 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:06:34 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-15 06:06:34 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-15 06:06:34 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-15 06:06:34 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-15 06:06:34 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-15 06:11:56 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-15 06:11:56 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-15 06:11:56 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-15 06:11:56 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-15 06:11:56 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-15 06:11:56 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-15 06:11:56 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-15 06:11:56 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-15 06:11:56 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-15 06:11:56 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-15 06:11:56 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-15 06:11:56 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-15 06:11:56 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-15 06:11:56 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-15 06:11:56 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-15 06:11:56 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-15 06:11:56 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:11:56 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-15 06:11:56 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-15 06:11:56 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-15 06:11:56 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-15 06:11:56 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-15 06:19:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-15 06:19:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-15 06:19:18 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-15 06:19:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-15 06:19:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-15 06:19:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-15 06:19:18 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-15 06:19:18 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-15 06:19:18 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-15 06:19:18 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-15 06:19:18 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-15 06:19:19 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-15 06:19:19 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-15 06:19:19 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-15 06:19:19 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-15 06:19:19 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-15 06:19:19 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:19:19 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-15 06:19:19 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-15 06:19:19 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-15 06:19:19 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-15 06:19:19 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-15 06:19:58 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-15 06:19:58 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-15 06:19:58 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-15 06:19:58 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-15 06:19:58 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-15 06:19:58 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-15 06:19:58 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-15 06:19:58 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-15 06:19:58 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-15 06:19:58 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-15 06:19:58 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-15 06:19:59 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-15 06:19:59 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-15 06:19:59 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-15 06:19:59 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-15 06:19:59 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-15 06:19:59 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:19:59 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-15 06:19:59 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-15 06:19:59 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-15 06:19:59 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-15 06:19:59 INFO  YearPartionerTest:34 - => 20090108,01,2,1
+2015-06-15 06:25:03 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,01,0
+2015-06-15 06:25:03 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080108,02,-1
+2015-06-15 06:25:03 INFO  YearGroupComparatorTest:31 - => 20080108,02,20080108,01,1
+2015-06-15 06:25:03 INFO  YearGroupComparatorTest:31 - => 20080108,01,20080208,01,0
+2015-06-15 06:25:03 INFO  YearGroupComparatorTest:31 - => 20080108,01,20090108,01,-1
+2015-06-15 06:25:03 INFO  YearGroupComparatorTest:31 - => 20080108,01,20070108,01,1
+2015-06-15 06:25:03 INFO  YearGroupComparatorTest:31 - => 20080108,01,20060108,01,1
+2015-06-15 06:25:03 INFO  YearlyCollectionOfAmountToInfractionReducerTest:51 - 0 => 20080627,5 / 30,ON|30,ON / 2008,5,60
+2015-06-15 06:25:03 DEBUG Shell:392 - setsid is not available on this machine. So not using it.
+2015-06-15 06:25:03 DEBUG Shell:396 - setsid exited with exit code 0
+2015-06-15 06:25:03 DEBUG TestDriver:338 - Reducing input (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@161b062a[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], (30,ON, 30,ON))
+2015-06-15 06:25:03 INFO  YearlyCollectionOfAmountToInfractionReducer:37 - +>2008:5
+2015-06-15 06:25:03 DEBUG TestDriver:651 - Matched expected output (2008,5, 60) at positions [0]
+2015-06-15 06:25:03 INFO  YearMonthInfractionMapperTest:52 - 
+
+
+
+ 0 => SET1 / ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON
+2015-06-15 06:25:03 DEBUG MapDriverBase:296 - Mapping input (SET1, ***19415,20080627,5,PARK-HWY DRNG PROH TIMES/DAYS,30,0035,NR,1095 ST CLAIR AVE W,,,ON
+***07839,20070517,29,PARK PROHIBITED TIME NO PERMIT,30,0035,NR,69 HOGARTH AVE,,,ON)
+2015-06-15 06:25:03 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@31190526[year=2008,month=6,infractionCode=5,dt=Sun Jun 01 00:00:00 EDT 2008], 30,ON) at positions [0]
+2015-06-15 06:25:03 DEBUG TestDriver:651 - Matched expected output (ca.effpro.learn.hadoop.mr.tpt.exer1.YearMonthToInfractionWritable@77c2494c[year=2007,month=5,infractionCode=29,dt=Tue May 01 00:00:00 EDT 2007], 30,ON) at positions [1]
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,01,0
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080109,01,0
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080107,01,0
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080108,02,-1
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,02,20080108,01,1
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20090108,01,-1
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20080208,01,-1
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20081208,01,20090108,01,-1
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080108,01,20070108,01,1
+2015-06-15 06:25:03 INFO  YearMonthToInfractionWritableTest:40 - => 20080208,01,20080108,01,1
+2015-06-15 06:25:03 INFO  YearPartionerTest:34 - => 20080108,01,1,0
+2015-06-15 06:25:03 INFO  YearPartionerTest:34 - => 20080108,01,2,0
+2015-06-15 06:25:03 INFO  YearPartionerTest:34 - => 20090108,01,1,0
+2015-06-15 06:25:03 INFO  YearPartionerTest:34 - => 20090108,01,2,1
